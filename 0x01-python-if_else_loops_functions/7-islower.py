@@ -3,5 +3,3 @@ def islower(c):
         print("{} is lower.".format(c))
     else:
         print("{} is upper.".format(c))
-
-islower('K')
