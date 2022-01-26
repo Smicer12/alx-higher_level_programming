@@ -1,4 +1,8 @@
-add = __import__('10-add').add
+#!/usr/bin/env python3
+def add(a, b):
+    sum = a + b
+    return sum
+
 
 print(add(1, 2))
 print(add(98, 0))
