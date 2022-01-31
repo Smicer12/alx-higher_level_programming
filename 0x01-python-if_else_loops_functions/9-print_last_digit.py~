@@ -3,4 +3,4 @@ import math
 
 
 def print_last_digit(number):
-    return math.fmod(numbe, 10)
+    return int(math.fmod(numbe, 10))
