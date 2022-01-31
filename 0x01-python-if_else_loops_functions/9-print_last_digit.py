@@ -2,5 +2,10 @@
 
 
 def print_last_digit(number):
-    last = number % 10
-    return abs(last)
+    if number < 0:
+        l = number % 10
+        print(-abs(l))
+    else:
+        s = number % 10
+        print(abs(s))
+
