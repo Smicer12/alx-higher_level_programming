@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in range(0,10):
-    for x in range(0,10):
-        print(f"{i:d}{x:d},",end=' ')
-        
-    
+for i in range(0, 100):
+    if i == 99:
+        print(f"{i:02d}")
+    else:
+        print(f"{i:02d},", end=' ')
