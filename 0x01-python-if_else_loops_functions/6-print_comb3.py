@@ -1,10 +1,5 @@
 #!/usr/bin/python3
-
-for i in range(0, 10):
-    for n in range(0, 10):
-        if i == n:
-            continue
-        elif i, n = n, i:
-            continue
-        else:
-            print(i, n)
+for i in range(0, 9):
+    for n in range(i + 1, 10):
+        print("{:d}{:d},".format(i, n), end=' ')
+    
