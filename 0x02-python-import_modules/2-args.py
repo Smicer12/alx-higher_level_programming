@@ -6,8 +6,6 @@ a = sys.argv
 if len(sys.argv) - 1 == 1:
     print("{} argument:".format(len(sys.argv) - 1))
     print("{}: {}".format(len(sys.argv) - 1, a[1]))
-elif len(sys.argv) - 1 == 0:
-    print("{} arguments.".format(len(sys.argv) - 1))
 else:
     print("{} arguments:".format(len(sys.argv) - 1))
 
