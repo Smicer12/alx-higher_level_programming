@@ -1,9 +1,15 @@
 #!/usr/bin/python3
+import sys
 if __name__ == "main":
-    from sys import argv
-#if len(argv) <= 1:
-    print("{} argument:".format(len(argv))
-          #print("{}: {}".format(len(argv), str(argv)) 
-#if len(argv) >= 2 :
-   # print("{} arguments:".format(len(argv))
-    #print("{}: {}".format(len(argv), str(argv))
+    pass
+a = sys.argv
+if len(sys.argv) - 1 == 1:
+    print("{} argument:".format(len(sys.argv) - 1))
+    print("{}: {}".format(len(sys.argv) - 1, a[1]))
+elif len(sys.argv) - 1 == 0:
+    print("{} arguments.".format(len(sys.argv) - 1))
+else:
+    print("{} arguments:".format(len(sys.argv) - 1))
+
+    for arg in range(1, len(sys.argv)):
+        print("{}: {}".format(arg, a[arg]))
