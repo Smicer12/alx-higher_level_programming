@@ -4,10 +4,10 @@ if __name__ == "main":
     pass
 a = sys.argv
 if len(sys.argv) - 1 == 1:
-    print("{} argument:".format(len(sys.argv) - 1))
-    print("{}: {}".format(len(sys.argv) - 1, a[1]))
+    print("{:d} argument:".format(len(sys.argv) - 1))
+    print("{:d}: {:s}".format(len(sys.argv) - 1, a[1]))
 else:
-    print("{} arguments:".format(len(sys.argv) - 1))
+    print("{:d} arguments:".format(len(sys.argv) - 1))
 
     for arg in range(1, len(sys.argv)):
-        print("{}: {}".format(arg, a[arg]))
+        print("{:d}: {:s}".format(arg, a[arg]))
