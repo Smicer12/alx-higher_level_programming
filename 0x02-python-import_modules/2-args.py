@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 import sys
 if __name__ == "main":
-    pass
+    import sys
 a = sys.argv
 if len(sys.argv) - 1 == 1:
     print("{:d} argument:".format(len(sys.argv) - 1))
     print("{:d}: {:s}".format(len(sys.argv) - 1, a[1]))
+
 else:
     print("{:d} arguments:".format(len(sys.argv) - 1))
 
