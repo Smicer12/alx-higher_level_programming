@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 def print_list_integer(my_list=[]):
-    for i in range(len(my_lit)):
-        print("{:d}".format(my_list[i]))
+    result = [val for val in my_list if isinstance(val, (int))]
+    for i in result:
+        print("{:d}".format(i))
 
 
-print_list_integer([1, 2, 3, 4, 5])
+print_list_integer([1, 2, “H”, 9])
