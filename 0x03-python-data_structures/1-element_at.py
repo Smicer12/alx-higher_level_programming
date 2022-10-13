@@ -8,4 +8,4 @@ def element_at(my_list, idx):
         print("Element at index {:d} is {:d}".format(idx, my_list[idx]))
 
 
-element_at([1, 2, 3], idx = 3)
+element_at()
