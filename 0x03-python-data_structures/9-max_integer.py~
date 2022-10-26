@@ -8,4 +8,3 @@ def max_integer(my_list=[]):
             if (num > max):
                 max = num
         return max
-print(max_integer([1, 92, 4, 8]))
