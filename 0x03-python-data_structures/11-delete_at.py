@@ -7,4 +7,4 @@ def delete_at(my_list=[], idx=0):
         return my_list
 
 
-print( delete_at()
+delete_at()
